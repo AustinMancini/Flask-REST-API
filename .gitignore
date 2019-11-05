@@ -3,3 +3,5 @@ env
 migrations
 *.pyc
 *__pycache__*
+resources/*__pycache__*
+users.db
