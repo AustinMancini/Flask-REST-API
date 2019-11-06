@@ -3,7 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_marshmallow import Marshmallow
 
 db = SQLAlchemy()
-ma = Marshmallow()
+# ma = Marshmallow()
 
 def create_app(config_filename):
     app = Flask(__name__)
