@@ -1,4 +1,4 @@
-# REST API With Flask & SQL Alchemy
+# REST API With Flask & SQL Alchemy & Postgress
 
 Users API using Python Flask, SQL Alchemy and Marshmallow
 
@@ -6,13 +6,11 @@ Users API using Python Flask, SQL Alchemy and Marshmallow
 ## Built With
 
 *   flask
-*   flask_restful
+*   flask_sqlalchemy
 *   flask_script
 *   flask_migrate
-*   marshmallow
-*   flask_sqlalchemy
-*   flask_marshmallow
-*   marshmallow-sqlalchemy
+*   flask_wtf
+*   wtforms
 
 
 ## Contributors
