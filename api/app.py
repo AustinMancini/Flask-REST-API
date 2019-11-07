@@ -1,5 +1,5 @@
 from flask import Flask, Blueprint, jsonify, request, render_template, url_for, redirect
-from server import db
+from run import db
 from models import Post, PostForm
 
 api_bp = Blueprint('api_bp', __name__)

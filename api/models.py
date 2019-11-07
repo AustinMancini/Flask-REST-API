@@ -1,7 +1,7 @@
 from flask_wtf import FlaskForm
 from wtforms import StringField
 from wtforms.validators import DataRequired
-from server import db
+from run import db
 
 class Post(db.Model):
     # __tablename__ = 'post'
